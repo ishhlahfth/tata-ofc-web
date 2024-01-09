@@ -29,6 +29,50 @@
 
 
     <!-- Content Here -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="owl-carousel project-carousel wow fadeInUp" data-wow-delay="0.3s">
+                <!-- @foreach($ootd as $dt)
+                <div class="project-item pe-5 pb-5">
+                    <div class="project-img mb-3">
+                        <img class="img-fluid rounded" src="{{ asset('media/ootd/'.$dt->image) }}" alt="">
+                        <a href=""><i class="fa fa-link fa-3x text-primary"></i></a>
+                    </div>
+                    <div class="project-title">
+                        <h4 class="mb-0">{{$dt->description}}</h4>
+                    </div>
+                </div>
+                @endforeach -->
+                <div class="project-item pe-5 pb-5">
+                    <div class="project-img mb-3">
+                        <img class="img-fluid rounded" src="{{ asset('assets/img/tata-ootd-1.png') }}" alt="">
+                        <a href=""><i class="fa fa-link fa-3x text-primary"></i></a>
+                    </div>
+                    <div class="project-title">
+                        <h4 class="mb-0">Outfit Casual</h4>
+                    </div>
+                </div>
+                <div class="project-item pe-5 pb-5">
+                    <div class="project-img mb-3">
+                        <img class="img-fluid rounded" src="{{ asset('assets/img/tata-ootd-1.png') }}" alt="">
+                        <a href=""><i class="fa fa-link fa-3x text-primary"></i></a>
+                    </div>
+                    <div class="project-title">
+                        <h4 class="mb-0">Outfit Casual</h4>
+                    </div>
+                </div>
+                <div class="project-item pe-5 pb-5">
+                    <div class="project-img mb-3">
+                        <img class="img-fluid rounded" src="{{ asset('assets/img/tata-ootd-1.png') }}" alt="">
+                        <a href=""><i class="fa fa-link fa-3x text-primary"></i></a>
+                    </div>
+                    <div class="project-title">
+                        <h4 class="mb-0">Outfit Casual</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
     @include('layout.footer')

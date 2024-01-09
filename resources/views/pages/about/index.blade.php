@@ -27,8 +27,65 @@
     </div>
     <!-- Page Header End -->
 
-
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="row g-4 align-items-center mb-4">
+                <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.1s">
+                    <img class="img-fluid rounded-full" src="{{ asset('assets/img/profile-2.jpeg') }}">
+                </div>
+                <div class="col-lg-8 wow fadeInUp" data-wow-delay="0.3s">
+                    <p class="d-inline-block border rounded text-primary fw-semi-bold py-1 px-3">Tentangku</p>
+                    <h1 class="display-5 mb-4">Sekilas Tentang Saya</h1>
+                    <p class="mb-4">Saya Deswita Nur Alifia mahasiswa semester 5 Teknik Informatika Universitas Sains Al-Quran Wonosobo.
+                        Saya seorang yang memiliki kepribadian disiplin, tekun, pemikir, kreatif dan memiliki keinginan belajar yang tinggi serta fast learner.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
     <!-- Content Here -->
+    <div class="container-xxl py-5">
+        <h1>Pendidikan</h1>
+        <div class="row my-4">
+            @foreach($education as $dt)
+            <div class="col-4 my-2">
+                <div class="border rounded p-4 shadow-lg">
+                    <p>{{$dt->period}}</p>
+                    <h4>{{$dt->institute}}</h4>
+                    <p>{{$dt->description}}</p>
+                </div>
+            </div>
+            @endforeach
+        </div>
+    </div>
+    <div class="container-xxl py-5">
+        <h1>Pengalaman</h1>
+        <div class="row my-4">
+            @foreach($experiences as $dtx)
+            <div class="col-4 my-2">
+                <div class="border rounded p-4 shadow-lg">
+                    <p>{{$dtx->period}}</p>
+                    <h4>{{$dtx->title}}</h4>
+                    <p>{{$dtx->description}}</p>
+                </div>
+            </div>
+            @endforeach
+        </div>
+    </div>
+    <div class="container-xxl py-5">
+        <h1>Sertifikasi</h1>
+        <div class="row my-4">
+            @foreach($certification as $dts)
+            <div class="col-4 my-2">
+                <div class="border rounded p-4 shadow-lg">
+                    <p>{{$dts->period}}</p>
+                    <h4>{{$dts->cert_title}}</h4>
+                    <p>{{$dts->description}}</p>
+                </div>
+            </div>
+            @endforeach
+        </div>
+    </div>
 
 
     @include('layout.footer')

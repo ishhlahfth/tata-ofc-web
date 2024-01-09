@@ -57,13 +57,13 @@
         <div class="container">
             <div class="row g-4 align-items-center mb-4">
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <img class="img-fluid rounded" src="{{ asset('assets/img/about.jpg') }}">
+                    <img class="img-fluid rounded-full" src="{{ asset('assets/img/tata-cropped.png') }}">
                 </div>
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
                     <p class="d-inline-block border rounded text-primary fw-semi-bold py-1 px-3">Tentangku</p>
                     <h1 class="display-5 mb-4">Sekilas Tentang Saya</h1>
-                    <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et
-                        eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet
+                    <p class="mb-4">Saya Deswita Nur Alifia mahasiswa semester 5 Teknik Informatika Universitas Sains Al-Quran Wonosobo.
+                        Saya seorang yang memiliki kepribadian disiplin, tekun, pemikir, kreatif dan memiliki keinginan belajar yang tinggi serta fast learner.
                     </p>
                 </div>
             </div>
@@ -186,7 +186,7 @@
                             <div class="row g-4">
                                 <div class="col-md-6" style="min-height: 350px;">
                                     <div class="position-relative h-100">
-                                        <img class="position-absolute rounded w-100 h-100" src="{{ asset('assets/img/service-1.jpg') }}" style="object-fit: cover;" alt="">
+                                        <img class="position-absolute rounded w-100 h-100" src="{{ asset('assets/img/tata-ootd-1.png') }}" style="object-fit: cover;" alt="">
                                     </div>
                                 </div>
                                 <div class="col-md-6">
@@ -200,7 +200,7 @@
                             <div class="row g-4">
                                 <div class="col-md-6" style="min-height: 350px;">
                                     <div class="position-relative h-100">
-                                        <img class="position-absolute rounded w-100 h-100" src="{{ asset('assets/img/service-2.jpg') }}" style="object-fit: cover;" alt="">
+                                        <img class="position-absolute rounded w-100 h-100" src="{{ asset('assets/img/tata-cookies.png') }}" style="object-fit: cover;" alt="">
                                     </div>
                                 </div>
                                 <div class="col-md-6">
@@ -214,7 +214,7 @@
                             <div class="row g-4">
                                 <div class="col-md-6" style="min-height: 350px;">
                                     <div class="position-relative h-100">
-                                        <img class="position-absolute rounded w-100 h-100" src="{{ asset('assets/img/service-3.jpg') }}" style="object-fit: cover;" alt="">
+                                        <img class="position-absolute rounded w-100 h-100" src="{{ asset('assets/img/tata-shop.png') }}" style="object-fit: cover;" alt="">
                                     </div>
                                 </div>
                                 <div class="col-md-6">

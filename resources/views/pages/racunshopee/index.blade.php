@@ -29,6 +29,21 @@
 
 
     <!-- Content Here -->
+    <div class="container-xxl py-5">
+        <h1>Referensi Belanja</h1>
+        <div class="row my-4">
+            <div class="col-4 my-2">
+                <div class="border rounded p-4 shadow-lg">
+                    <img src="{{ asset('assets/img/bostanten.webp') }}" class="w-100" alt="">
+                    <hr>
+                    <div class="text-center">
+                        <h4>Sepatu Balet</h4>
+                        <a class="btn btn-primary py-3 px-5" href="https://shope.ee/9KH03zFXCa">Pesan Sekarang</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
     @include('layout.footer')

@@ -20,6 +20,7 @@ h1,
 h2,
 .h2,
 .fw-bold {
+    color: #FB6F92 !important;
     font-family: Pacifico;
     font-weight: 700 !important;
 }
@@ -48,12 +49,19 @@ h6,
 }
 
 .btn-primary {
+    border: none !important;
+    font-family: Pacifico;
     color: #fff;
     background-color: #FB6F92 !important;
 }
 
 .bg-primary {
     background-color: #FB6F92 !important;
+}
+
+.rounded-full {
+    border-radius: 50%;
+    box-shadow: 5px 10px 10px #888888;;
 }
 
 /*** Spinner ***/
