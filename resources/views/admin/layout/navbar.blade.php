@@ -43,7 +43,7 @@
                     </a>
                 </li>
                 <li class="nav-item menu-open">
-                    <a href="#" class="nav-link active">
+                    <a href="#" class="nav-link">
                         <i class="nav-icon fas fa-list"></i>
                         <p>
                             Konten

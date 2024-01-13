@@ -24,6 +24,7 @@ class FrontController extends Controller
     public function about()
     {
         $params = [
+            'about_me' => Content::where(array('content_key' => 'about_me'))->first(),
             'education' => Education::all(),
             'experiences' => Experiences::all(),
             'certification' => Certification::all(),

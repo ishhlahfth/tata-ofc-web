@@ -36,8 +36,8 @@
                 <div class="col-lg-8 wow fadeInUp" data-wow-delay="0.3s">
                     <p class="d-inline-block border rounded text-primary fw-semi-bold py-1 px-3">Tentangku</p>
                     <h1 class="display-5 mb-4">Sekilas Tentang Saya</h1>
-                    <p class="mb-4">Saya Deswita Nur Alifia mahasiswa semester 5 Teknik Informatika Universitas Sains Al-Quran Wonosobo.
-                        Saya seorang yang memiliki kepribadian disiplin, tekun, pemikir, kreatif dan memiliki keinginan belajar yang tinggi serta fast learner.
+                    <p class="mb-4">
+                        {{ $about_me->value }}
                     </p>
                 </div>
             </div>

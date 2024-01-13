@@ -1,5 +1,7 @@
 <?php
 
+use App\Http\Controllers\Admin\ContentController;
+use App\Http\Controllers\Admin\EducationController;
 use Illuminate\Support\Facades\Route;
 
 use App\Http\Controllers\FrontController;
@@ -38,4 +40,13 @@ Route::group(['namespace' => 'Admin', 'prefix' => 'admin'], function () {
     Route::get('/gallery-ootd', [AdminController::class, 'gallery']);
     Route::get('/alifia-cookies', [AdminController::class, 'cookies']);
     Route::get('/racun-shopee', [AdminController::class, 'shopping']);
+});
+Route::group(['namespace' => 'Controller', 'prefix' => 'c'], function () {
+    Route::group(['namespace' => 'content', 'prefix' => 'content'], function () {
+        Route::post('/update/{id}', [ContentController::class, 'updateContent']);
+    });
+    Route::group(['namespace' => 'education', 'prefix' => 'education'], function () {
+        Route::post('/insert', [EducationController::class, 'insertEducation']);
+        Route::get('/delete/{id}', [EducationController::class, 'deleteEducation']);
+    });
 });
